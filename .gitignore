@@ -1,5 +1,13 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+/terraform/.terraform
+/terraform/terraform.tfstate
+/terraform.lock.hcl
+# Local .terraform directories
+**/.terraform/*
 
+# .tfstate files
+*.tfstate
+*.tfstate.*
 # dependencies
 node_modules
 node_modules/
